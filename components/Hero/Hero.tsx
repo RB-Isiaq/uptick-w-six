@@ -53,6 +53,8 @@ const Hero = () => {
           width={432}
           height={577}
           data-testid={TestId.HERO_IMG}
+          layout="responsive"
+          sizes="(max-width: 640px) 100vw, 640px"
         />
       </div>
     </section>
